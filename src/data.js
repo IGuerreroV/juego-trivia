@@ -1,17 +1,7 @@
-export const categories = {
-  hardware: 'Hardware',
-  software: 'Software'
-}
-
-const {
-  hardware,
-  software
-} = categories
-
-export const question = [
+export const questions = [
   {
     id: 1,
-    category: hardware,
+    category: 'hardware',
     question: '¿Qué componente de hardware es conocido como el "cerebro" de la computadora?',
     correct_answer: 'CPU (Unidad Central de Procesamiento)',
     incorrect_answer: [
@@ -22,7 +12,7 @@ export const question = [
   },
   {
     id: 2,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un sistema operativo de código abierto?',
     correct_answer: 'Linux',
     incorrect_answer: [
@@ -33,7 +23,7 @@ export const question = [
   },
   {
     id: 3,
-    category: hardware,
+    category: 'hardware',
     question: '¿Qué tipo de dispositivo de almacenamiento utiliza discos magnéticos para almacenar datos de forma permanente?',
     correct_answer: 'Disco duro',
     incorrect_answer: [
@@ -44,7 +34,7 @@ export const question = [
   },
   {
     id: 4,
-    category: software,
+    category: 'software',
     question: '¿Qué función realiza un firewall en un sistema informático?',
     correct_answer: 'Proteger la red al filtrar el tráfico no autorizado',
     incorrect_answer: [
@@ -55,7 +45,7 @@ export const question = [
   },
   {
     id: 5,
-    category: hardware,
+    category: 'hardware',
     question: '¿Qué tipo de conexión de red inalámbrica permite a los dispositivos conectarse a internet dentro de un área limitada?',
     correct_answer: 'Wi-Fi',
     incorrect_answer: [
@@ -66,7 +56,7 @@ export const question = [
   },
   {
     id: 6,
-    category: hardware,
+    category: 'hardware',
     question: '¿Cuál de los siguientes es un dispositivo de entrada comúnmente utilizado para apuntar y hacer clic en elementos en la pantalla de la computadora?',
     correct_answer: 'Ratón',
     incorrect_answer: [
@@ -77,7 +67,7 @@ export const question = [
   },
   {
     id: 7,
-    category: hardware,
+    category: 'hardware',
     question: '¿Qué componente de hardware se utiliza para mostrar información visual en la pantalla de la computadora?',
     correct_answer: 'Tarjeta gráfica',
     incorrect_answer: [
@@ -88,7 +78,7 @@ export const question = [
   },
   {
     id: 8,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un sistema operativo ampliamente utilizado en servidores?',
     correct_answer: 'Windows Server',
     incorrect_answer: [
@@ -99,7 +89,7 @@ export const question = [
   },
   {
     id: 9,
-    category: software,
+    category: 'software',
     question: '¿Qué tipo de software se utiliza para crear y editar presentaciones multimedia?',
     correct_answer: 'Software de presentación',
     incorrect_answer: [
@@ -110,7 +100,7 @@ export const question = [
   },
   {
     id: 10,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un ejemplo de un software de edición de imágenes?',
     correct_answer: 'Adobe Photoshop',
     incorrect_answer: [
@@ -121,7 +111,7 @@ export const question = [
   },
   {
     id: 11,
-    category: software,
+    category: 'software',
     question: '¿Qué tipo de software se utiliza para proteger una computadora contra virus y otras amenazas de seguridad?',
     correct_answer: 'Antivirus',
     incorrect_answer: [
@@ -143,7 +133,7 @@ export const question = [
   },
   {
     id: 13,
-    category: hardware,
+    category: 'hardware',
     question: '¿Qué componente de hardware se utiliza para conectar una computadora a una red Ethernet?',
     correct_answer: 'Tarjeta de red',
     incorrect_answer: [
@@ -154,7 +144,7 @@ export const question = [
   },
   {
     id: 14,
-    category: software,
+    category: 'software',
     question: '¿Qué tipo de software se utiliza para gestionar y organizar información en forma de tablas?',
     correct_answer: 'Hoja de cálculo',
     incorrect_answer: [
@@ -165,7 +155,7 @@ export const question = [
   },
   {
     id: 15,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un ejemplo de un software de mensajería instantánea?',
     correct_answer: 'WhatsApp',
     incorrect_answer: [
@@ -176,7 +166,7 @@ export const question = [
   },
   {
     id: 16,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un ejemplo de un software de sistema operativo para dispositivos móviles?',
     correct_answer: 'Android',
     incorrect_answer: [
@@ -187,7 +177,7 @@ export const question = [
   },
   {
     id: 17,
-    category: hardware,
+    category: 'hardware',
     question: '¿Qué componente de hardware se utiliza para almacenar datos de forma permanente en una computadora portátil?',
     correct_answer: 'SSD (Unidad de Estado Sólido)',
     incorrect_answer: [
@@ -198,7 +188,7 @@ export const question = [
   },
   {
     id: 18,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un ejemplo de un navegador web?',
     correct_answer: 'Google Chrome',
     incorrect_answer: [
@@ -209,7 +199,7 @@ export const question = [
   },
   {
     id: 19,
-    category: software,
+    category: 'software',
     question: '¿Qué función realiza el sistema operativo de una computadora?',
     correct_answer: 'Administrar los recursos de hardware y proporcionar interfaces para el usuario y las aplicaciones',
     incorrect_answer: [
@@ -220,7 +210,7 @@ export const question = [
   },
   {
     id: 20,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un ejemplo de un software de diseño asistido por computadora (CAD)?',
     correct_answer: 'AutoCAD',
     incorrect_answer: [
@@ -231,7 +221,7 @@ export const question = [
   },
   {
     id: 21,
-    category: hardware,
+    category: 'hardware',
     question: '¿Qué tipo de dispositivo de entrada se utiliza para ingresar texto y comandos en una computadora?',
     correct_answer: 'Teclado',
     incorrect_answer: [
@@ -242,7 +232,7 @@ export const question = [
   },
   {
     id: 22,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un ejemplo de un software de reproducción de medios?',
     correct_answer: 'VLC Media Player',
     incorrect_answer: [
@@ -253,7 +243,7 @@ export const question = [
   },
   {
     id: 23,
-    category: hardware,
+    category: 'hardware',
     question: '¿Qué función realiza la tarjeta madre en una computadora?',
     correct_answer: 'Conectar y comunicar entre todos los componentes de hardware de la computadora',
     incorrect_answer: [
@@ -264,7 +254,7 @@ export const question = [
   },
   {
     id: 24,
-    category: hardware,
+    category: 'hardware',
     question: '¿Cuál de los siguientes es un ejemplo de un dispositivo de almacenamiento externo?',
     correct_answer: 'Unidad flash USB',
     incorrect_answer: [
@@ -275,7 +265,7 @@ export const question = [
   },
   {
     id: 25,
-    category: software,
+    category: 'software',
     question: '¿Qué tipo de software se utiliza para escribir y formatear documentos de texto?',
     correct_answer: 'Procesador de texto',
     incorrect_answer: [
@@ -286,7 +276,7 @@ export const question = [
   },
   {
     id: 26,
-    category: hardware,
+    category: 'hardware',
     question: '¿Qué componente de hardware se utiliza para conectar una computadora a una red inalámbrica?',
     correct_answer: 'Tarjeta de red inalámbrica (Wi-Fi)',
     incorrect_answer: [
@@ -297,7 +287,7 @@ export const question = [
   },
   {
     id: 27,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un ejemplo de un software de correo electrónico?',
     correct_answer: 'Microsoft Outlook',
     incorrect_answer: [
@@ -308,7 +298,7 @@ export const question = [
   },
   {
     id: 28,
-    category: software,
+    category: 'software',
     question: '¿Qué es un controlador de dispositivo?',
     correct_answer: 'Un programa que permite que el sistema operativo interactúe con un hardware específico',
     incorrect_answer: [
@@ -319,7 +309,7 @@ export const question = [
   },
   {
     id: 29,
-    category: software,
+    category: 'software',
     question: '¿Cuál de los siguientes es un ejemplo de un software de videoconferencia?',
     correct_answer: 'Zoom',
     incorrect_answer: [
@@ -330,7 +320,7 @@ export const question = [
   },
   {
     id: 30,
-    category: software,
+    category: 'software',
     question: '¿Qué tipo de software se utiliza para realizar cálculos numéricos y análisis de datos?',
     correct_answer: 'Software de hoja de cálculo',
     incorrect_answer: [
